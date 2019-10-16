@@ -14,15 +14,55 @@
   margin-bottom: 10%
 }
 
-.logo{
-  margin-left: 24%;
+.logo img{
+  width:18%;
 }
 
-p{
-  font-family: 'Quicksand', sans-serif;
-  font-size: 1.1em;
-  letter-spacing: 1px;
+@media only screen and (min-width: 415px) {
+  div>ul{
+    width: 70%;
+    margin: auto;
+  }
+
+  .logo{
+    margin-left: 24%;
+  }
+
+  .img-cover{
+   margin-left: 10%;
+   margin-top: 5%;
+  }
+
+  p{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.1em;
+    letter-spacing: 1px;
+  }
+
+  .right-section{
+    margin-left: 2%;
+    margin-top: 22%;
+  }
+
+  .button-cover{
+    margin-top: 8%;
+  }
+
+  .button {
+    background-color: transparent;
+    color:#333;
+    font-size: 0.9em;
+    padding: 5px 50px;
+    letter-spacing: 3px;
+    font-family: 'Lato', sans-serif;
+    border: 1.5px solid #c6aa28;
+  }
+
+  
 }
+
+
+
 
 p.first-paragraph{
   padding-top: 45%;
@@ -35,32 +75,68 @@ p.first-paragraph{
 
 }
 
-/*.cover-image{
-  background-image: url(../img/cover5.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-}*/
 
-.img-cover{
- margin-left: 10%;
- margin-top: 5%;
+@media only screen and (max-width: 410px) {
+
+  .logo {
+    position: absolute;
+    right: 4%;
+    text-align: right;
+  }
+
+  .logo img{
+    width: 45%;
+  }
+
+  .img-cover{
+     margin-left: 10%;
+     margin-top: 36%;
+  }
+
+  .right-section{
+    margin-left: 2%;
+    margin-top: 10%;
+  }
+
+  p{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1em;
+    text-align: justify;
+  }
+
+  .button-cover{
+    margin-top: 9%;
+    text-align: center;
+  }
+
+  .button {
+    background-color: transparent;
+    color:#333;
+    font-size: 0.8em;
+    padding: 5px 45px;
+    letter-spacing: 2px;
+    font-family: 'Lato', sans-serif;
+    border: 1.5px solid #c6aa28;
+  }
+
+  .form{
+    width: auto!important;
+  }
+
+  .contact-section{
+    margin-left: 0!important;
+  }
+
+  .button-form{
+    padding:4px 0px!important;
+  }
+
+  .form{
+    margin-top: 10%!important;
+  }
 }
 
-.right-section{
-  margin-left: 2%;
-  margin-top: 22%;
-}
 
-
-.button {
-  background-color: transparent;
-  color:#333;
-  font-size: 0.9em;
-  padding: 5px 50px;
-  letter-spacing: 3px;
-  font-family: 'Lato', sans-serif;
-  border: 1.5px solid #c6aa28;
-}
 
 .button:hover{
  font-family: 'Lato', sans-serif;
@@ -70,12 +146,13 @@ p.first-paragraph{
   letter-spacing: 3px;
   color: #c6aa28;
   background-color: #333;
+  text-decoration: none;
 }
 
 .section-2{
   margin-top: 12%;
-  height:880px;
-  background: url(../img/8.png) center no-repeat;;
+  height:850px;
+  background: url(../img/shutterstock_1244630368.jpg) center no-repeat;;
   background-size: cover;
   position: sticky;
 }
@@ -83,8 +160,8 @@ p.first-paragraph{
 
 .section-4{
   margin-top: 12%;
-  height:880px;
-  background: url(../img/9.png);
+  height:850px;
+  background: url(../img/shutterstock_1060903196.jpg);
   background-size: cover;
   /*position: fixed;*/
 }
@@ -117,12 +194,6 @@ p.first-paragraph{
 }
 
 
-
-.button-cover{
-margin-top: 8%;
- }
-
-
 .cover{
   background-size: cover;
 }
@@ -138,10 +209,6 @@ li{
   line-height: 30px;
 }
 
-div>ul{
-  width: 70%;
-  margin: auto;
-}
 
 .center-img{
  text-align: center;
@@ -158,7 +225,6 @@ div>ul{
 .footer-image{
   background: url(../img/footer.jpg) center no-repeat;
   background-size: cover;
-  position: sticky;
   z-index: -1;
   max-height: 680px;
   margin-top: 20%;
@@ -214,7 +280,7 @@ h2{
   border-bottom:3px solid #eac180;
 }
 
-input{
+input, textarea{
   width:100%;
   padding:10px;
   box-sizing:border-box;
@@ -223,11 +289,12 @@ input{
   resize:none;
   border:0;
   font-family:'Muli',sans-serif;
-  transition:all .3s;
+  caret-color:#f7e7ce;
   border-bottom:2px solid #eac180;
+   color:#f7e7ce;
 }
 
-input:focus{
+input:focus, textarea:focus{
   border-bottom:2px solid #eac180;
 }
 
@@ -247,19 +314,13 @@ p:before{
   margin:8px 0 0;
   font-family:'Muli',sans-serif;
   border:2px solid #eac180;
-  background:0;
   color:#f7e7ce;
   cursor:pointer;
-  transition:all .3s;
 }
 
 .button-form:hover{
-  background:#78788c;
-  color:#fff;
-}
-
-button.button-form {
-  margin-top: 10%;
+  background:rgba(247, 231, 206, 0.2);
+  color:#fffaf0;
 }
 
 .contact-info{
@@ -271,3 +332,13 @@ button.button-form {
 span{
   margin:0 5px 0 15px;
 }
+
+/*input:-internal-autofill-selected{
+  background-color: none!important;
+  color: #fff!important;
+}*/
+
+::placeholder{
+  color: #f7e7ce;
+}
+
