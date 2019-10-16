@@ -19,9 +19,27 @@
 }
 
 p{
-  font-family: 'Muli', sans-serif;
-  font-size: 1.2em;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.1em;
+  letter-spacing: 1px;
 }
+
+p.first-paragraph{
+  padding-top: 45%;
+  color: #333;
+  font-size: 1.4em;
+  font-family:'Quicksand', sans-serif;
+  letter-spacing: 2px;
+  line-height: 40px;
+  padding-left: 10%;
+
+}
+
+/*.cover-image{
+  background-image: url(../img/cover5.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}*/
 
 .img-cover{
  margin-left: 10%;
@@ -30,8 +48,9 @@ p{
 
 .right-section{
   margin-left: 2%;
-  margin-top: 20%;
+  margin-top: 22%;
 }
+
 
 .button {
   background-color: transparent;
@@ -56,15 +75,16 @@ p{
 .section-2{
   margin-top: 12%;
   height:880px;
-  background: url(../img/9.png) center no-repeat;;
+  background: url(../img/8.png) center no-repeat;;
   background-size: cover;
   position: sticky;
 }
 
+
 .section-4{
   margin-top: 12%;
   height:880px;
-  background: url(../img/8.png);
+  background: url(../img/9.png);
   background-size: cover;
   /*position: fixed;*/
 }
@@ -77,22 +97,12 @@ p{
   letter-spacing: 3px;
   border: 1.3px solid #DAA520;
   padding: 8px 10px;
-  margin-left: 19%;
+  margin-left: 22%;
   margin-top: 8%;
   width: 50%;
 }
 
-#button-group{
-  background-color: transparent;
-  color: #DAA520;
-  font-size: 1em;
-  font-family: 'Lato', sans-serif;
-  letter-spacing: 3px;
-  border: 1.3px solid #DAA520;
-  padding: 8px 50px;
-  margin-left: 19%;
-  margin-top: 8%;
-}
+
 
 .button-group:hover{
   font-family: 'Lato', sans-serif;
@@ -106,22 +116,10 @@ p{
  
 }
 
-#button-group:hover{
-  font-family: 'Lato', sans-serif;
-  letter-spacing: 3px;
-  font-size: 1em;
-  letter-spacing: 3px;
-  /*background-color: rgba(218, 165, 32, 0.4); */
-  background-color:#333; 
-  color: #c6aa28;
-  border:none;
-  
-  
-}
 
 
 .button-cover{
-margin-top: 15%;
+margin-top: 8%;
  }
 
 
@@ -130,12 +128,14 @@ margin-top: 15%;
 }
 
 ul.c {
-  margin-top: 35%;
+  margin-top: 12%;
   list-style-type: circle;
 }
 
 li{
   font-size: 1.1em;
+  letter-spacing: 1px;
+  line-height: 30px;
 }
 
 div>ul{
@@ -148,7 +148,7 @@ div>ul{
 }
 
 .margin-top{
-  margin-top: 10%;
+  margin-top: 20%;
 }
 
 
