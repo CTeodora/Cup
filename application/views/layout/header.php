@@ -18,7 +18,7 @@
 <body class="body-background">
 	<div class="cover" style="background-image: url('assets/img/cover4.png');">
 		<div class="logo">
-			<img style="margin-top:1%;" src="assets/img/disposaLux-logo.svg" width="18%">
+			<img style="margin-top:1%;" src="assets/img/disposaLux-logo.svg" >
 		</div>
 		<div class="col-md-12">
 			<div class="row">
@@ -30,7 +30,7 @@
 
 					<p ><b style="color:#d8b823">Disposalux Luxury</b> 12 oz Paper Cups, 80 Count, Insulated for Hot Coffee, Cold Water, Desserts, Punch, and Natural Tea, Upscale Black and Gold Colors, Wedding, Party, Event, or Office.</p>
 					<div class="button-cover">
-						<button class="button">FIND MORE</button>
+						<a href="#section-2" class="button">DISCOVER</a>
 					</div>
 					
 				</div>
@@ -39,7 +39,7 @@
 		</div>
 	</div>
 
-	<div class="section-2">
+	<div id="section-2" class="section-2">
 		<div class="col-md-12">
 			<div class="col-md-4" style="position: absolute;right: 0;">
 				<p class="first-paragraph">
@@ -102,7 +102,7 @@
 					<ul class="c">
 				  		<li>Disposable and Recyclable Paper – These high quality, no BPA, food grade safe 12 oz coffee cups make cleaning up quick and easy after parties or events. You can simply throw them away or add them to your recycling efforts to reduce waste.</li>
 	  				</ul>
-	  				<button class="button-group" >Shop now</button>
+	  				
 				</div>
 				<div class="col-md-6 center-img">
 					<img src="assets/img/Disposalux-11.jpg" style="width: 100%">
