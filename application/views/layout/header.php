@@ -8,8 +8,8 @@
 	<link rel="stylesheet" href="<?php echo base_url('assets/css/style.css') ?>">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800,300" rel="stylesheet" type="text/css">
-	<link href="https://fonts.googleapis.com/css?family=Lobster|Dancing+Script|Gayathri|Great+Vibes|Muli|Lato|Italianno|Lexend+Exa|Montserrat|Poiret+One|Quicksand|Space+Poppins&display=swap" rel="stylesheet">
+	<!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800,300" rel="stylesheet" type="text/css"> -->
+	<link href="https://fonts.googleapis.com/css?family=Muli|Lato|Poiret+One|Quicksand&display=swap" rel="stylesheet">
 
 	<title>Cup</title>	
 </head>
@@ -32,7 +32,13 @@
 					<div class="button-cover">
 						<a href="#section-2" class="button">DISCOVER</a>
 					</div>
-					
+					<div class="arrow">
+						<svg id="more-arrows">
+							<polygon class="arrow-top" points="37.6,27.9 1.8,1.3 3.3,0 37.6, 25.3 71.9, 0 73.7,1.3 "/>
+							<polygon class="arrow-middle" points="37.6,45.8 0.8,18.7 4.4,16.4 37.6, 41.2 71.2,16.4 74.5,18.7 "/>
+							<polygon class="arrow-bottom" points="37.6,64 0,36.1 5.1,32.8 37.6,56.8 70.4,32.8 75.5,36.1 "/>
+						</svg>
+					</div>
 				</div>
 				
 			</div>
@@ -50,8 +56,8 @@
 			
 	</div>
 
-<div class="cover-image">
-		<div class="container">	
+
+	<div class="container">	
 		<div class="col-md-12">
 				<div class="row margin-top">
 					<div class="col-md-6 center-img">
@@ -65,7 +71,12 @@
 					</div>
 					
 				</div>
-			</div>	
+		</div>
+	</div>
+	<div class="section-3">
+		<img src="assets/img/InfoGold.jpg" style="width:100%;">
+	</div>
+	<div class="container">		
 		<div class="col-md-12">
 			<div class="row margin-top">
 				
@@ -78,12 +89,12 @@
 	  				<input type="button" id="theButton" value="Change color" class="button-group" onclick="pictureChange()">
 				</div>
 				<div class="col-md-6 center-img">
-					<img id="theImage" src="assets/img/3.jpg" style="width: 100%; margin-top: -25%;">
+					<img id="theImage" src="assets/img/3.jpg">
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
+
 
 		<div class="section-4">
 			<div class="col-md-12">
