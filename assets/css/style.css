@@ -23,7 +23,7 @@
   margin-top: -25%;
 }
 
-@media only screen and (min-width: 415px) {
+@media only screen and (min-width: 416px) {
   div>ul{
     width: 70%;
     margin: auto;
@@ -85,7 +85,7 @@ p.first-paragraph{
 }
 
 
-@media only screen and (max-width: 410px) {
+@media only screen and (max-width: 415px) {
 
   .logo {
     position: absolute;
